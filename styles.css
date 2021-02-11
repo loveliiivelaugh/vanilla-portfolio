@@ -22,6 +22,14 @@ hr {
   border: #ddd 2px solid;
   border-radius: 4px;
   color: grey;
+  margin: 20px 0 20px 0;
+  z-index: 1;
+}
+
+.btn:hover {
+  color: green;
+  background-color: #afa;
+  border: #af2 2px solid;
 }
 
 .container {
@@ -39,10 +47,18 @@ hr {
 
 .grid-items button:hover {
   padding: 10px 20px 10px 20px;
-  background-color: #fff;
-  border: #ddd 2px solid;
+  color: green;
+  background-color: #afa;
+  border: #af2 2px solid;
   border-radius: 4px;
-  color: grey;
+}
+
+.image-container {
+  max-height: 200px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-image {
@@ -63,9 +79,9 @@ hr {
   margin: auto;
   margin-top: 25%;
   /* margin-left: 50%; */
-  height: 100%;
+  height: 200px;
   width: 400px;
-  top: 50%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -89,18 +105,54 @@ hr {
   border-radius: 100%;
 }
 
-.side-nav {
-  height: 100%;
-  width: 30%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(53, 53, 53);
-  /* background-image: url('https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
-  color: #f1f1f1;
-  overflow-x: hidden;
-  padding-top: 20px;
+@media screen and (min-width: 768px) {
+  .side-nav {
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(53, 53, 53);
+    /* background-image: url('https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+    color: #f1f1f1;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  main {
+    margin-left: 30%; /* Same as the width of the sidenav */
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .side-nav {
+    height: auto;
+    width: 100%;
+    background-color: rgb(53, 53, 53);
+    color: #f1f1f1;
+    padding-top: 20px;
+    text-align: center;
+  }
+
+  .side-nav section {
+    width: 80%;
+  }
+
+  main {
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  .col-1 {
+    order: 2;
+  }
+  
+  .col-2 {
+    order: 1;
+  }
 }
 
 .side-nav section {
@@ -127,7 +179,7 @@ hr {
 }
 
 
-.side-nav a:hover {
+.side-nav a:hover, .side-nav a i:hover {
   color: #f1f1f1;
 }
 
@@ -146,10 +198,9 @@ hr {
   align-items: center;
 }
 
-main {
-  margin-left: 30%; /* Same as the width of the sidenav */
-  font-size: 18px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+section {
+  padding: 25px;
+  margin: auto;
 }
 
 .form-container {
