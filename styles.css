@@ -17,19 +17,23 @@ hr {
 }
 
 .btn {
-  padding: 10px 20px 10px 20px;
-  background-color: #fff;
-  border: #ddd 2px solid;
+  padding: 15px 30px 15px 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border: #777 2px solid;
   border-radius: 4px;
-  color: grey;
+  color: #000;
   margin: 20px 0 20px 0;
-  z-index: 1;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .btn:hover {
-  color: green;
-  background-color: #afa;
-  border: #af2 2px solid;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0);
+  border: #000 2px solid;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
 .container {
@@ -46,11 +50,15 @@ hr {
 }
 
 .grid-items button:hover {
-  padding: 10px 20px 10px 20px;
-  color: green;
-  background-color: #afa;
-  border: #af2 2px solid;
+  padding: 15px 30px 15px 30px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  backdrop-filter: blur 30px;
+  background-color: rgba(0, 0, 0, 0);
+  border: #000 2px solid;
   border-radius: 4px;
+  box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, 0.4);
 }
 
 .image-container {
@@ -66,7 +74,7 @@ hr {
   border-radius: 5px;
   opacity: 1;
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -114,7 +122,8 @@ hr {
     top: 0;
     left: 0;
     background-color: rgb(53, 53, 53);
-    /* background-image: url('https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+    /* background-image: url('https://images.pexels.com/photos/3646206/pexels-photo-3646206.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
+    background-repeat: no-repeat;
     color: #f1f1f1;
     overflow-x: hidden;
     padding-top: 20px;
@@ -124,7 +133,20 @@ hr {
     margin-left: 30%; /* Same as the width of the sidenav */
     font-size: 18px; /* Increased text to enable scrolling */
     padding: 0px 10px;
+    z-index: 10;
   }
+}
+
+video {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -10;
+  left: 0;
+  top: 0;
+  opacity: 0.4;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -132,6 +154,7 @@ hr {
     height: auto;
     width: 100%;
     background-color: rgb(53, 53, 53);
+    /* background-image: url('https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
     color: #f1f1f1;
     padding-top: 20px;
     text-align: center;
