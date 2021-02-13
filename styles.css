@@ -4,6 +4,11 @@
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+html {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   display: flex;
 }
@@ -33,7 +38,8 @@ hr {
   border: #000 2px solid;
   font-size: 16px;
   font-weight: 400;
-  box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  transition: .3s ease;
 }
 
 .container {
@@ -47,6 +53,9 @@ hr {
   position: relative;
   max-width: 400px;
   padding: 20px;
+  border: #000 1px solid;
+  margin: 20px 20px 20px 20px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
 .grid-items button:hover {
@@ -58,7 +67,8 @@ hr {
   background-color: rgba(0, 0, 0, 0);
   border: #000 2px solid;
   border-radius: 4px;
-  box-shadow: 5px 10px 5px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.4);
+  transition: .3s ease;
 }
 
 .image-container {
@@ -85,7 +95,7 @@ hr {
   opacity: 0;
   position: absolute;
   margin: auto;
-  margin-top: 25%;
+  margin-top: 20%;
   /* margin-left: 50%; */
   height: 200px;
   width: 400px;
@@ -127,6 +137,7 @@ hr {
     color: #f1f1f1;
     overflow-x: hidden;
     padding-top: 20px;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.6);
   }
 
   main {
@@ -158,6 +169,7 @@ video {
     color: #f1f1f1;
     padding-top: 20px;
     text-align: center;
+    box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.6);
   }
 
   .side-nav section {
