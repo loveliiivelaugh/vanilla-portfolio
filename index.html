@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/tie_logo.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <meta name="description" content="">
@@ -49,6 +50,8 @@
       <section id="projects">
         <h3>Recent Work</h3>
         <div class="container">
+
+        <!-- going to set up some animation to change out two projects at a time -->
           <div class="grid-items">
             <div class="image-container">
               <img class="grid-image" src="./images/coffee-shop.jpg" alt="Thumnail of my project" />
@@ -69,6 +72,32 @@
             <h5>To Do App</h5>
             <p><small>Full stack simple to do app, highlighting the use of CRUD operations, utilizing MongoDB for a database featuring simple design and deployed using Heroku.</small></p>
           </div>
+          <!-- Want to make active and inactive two projects at a time -->
+
+          <!-- going to set up some animation to change out two projects at a time -->
+          <div class="grid-items" hidden>
+            <div class="image-container">
+              <img class="grid-image" src="./images/coffee-shop.jpg" alt="Thumnail of my project" />
+              <div class="middle">
+                <a href="https://coffee-shop-shopify-context.netlify.app/" target="blank"><button class="btn">Learn More</button></a>
+              </div>
+            </div>
+            <h5>Shopify Coffee Shop</h5>
+            <p><small>Full stack React based Shopify integrated Coffee Shop featuring 10 plus pages, a dynamic cart accessible from multiple pages and custom design.</small></p>
+          </div>
+          <div class="grid-items" hidden>
+            <div class="image-container">
+              <img class="grid-image" src="./images/todo.jpg" alt="Thumnail of my project" />
+              <div class="middle">
+                <a href="https://learnjs-todo.herokuapp.com/" target="blank"><button class="btn">Learn More</button></a>
+              </div>
+            </div>
+            <h5>To Do App</h5>
+            <p><small>Full stack simple to do app, highlighting the use of CRUD operations, utilizing MongoDB for a database featuring simple design and deployed using Heroku.</small></p>
+          </div>
+          <!-- Want to make active and inactive two projects at a time -->
+
+
           <div class="grid-items">
             <div class="image-container">
               <img class="grid-image" src="./images/fictional-university.jpg" alt="Thumnail of my project" />
@@ -121,7 +150,7 @@
         </p>
         <div class="form-container">
           <div class="col-1">
-            <form action="https://www.place-to-submit-form.com">
+            <form method="POST" action="https://formspree.io/f/xyybwvnz">
               <div class="row">
                 <input class="form-name" name="name" type="text" placeholder="Name" />
                 <input class="form-email" name="email" type="email" placeholder="Email" />
@@ -136,21 +165,15 @@
             <div class="row">
               <p>
               <i class="fa fa-home" aria-hidden="true"></i><br />
-                1234 Somewhere Rd.<br />
-                Nashville, TN. 00000<br />
+                Chicago Area Based<br />
+                Chicago, IL.<br />
                 United States<br />
               </p>
             </div>
             <div class="row">
               <p>
-                <i class="fa fa-mobile" aria-hidden="true"></i>
-                000-000-0000
-              </p>
-            </div>
-            <div class="row">
-              <p>
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                <u>hello@untitiled.tld</u>
+                <u>woodward.michael.a@gmail.com</u>
               </p>
             </div>
           </div>
