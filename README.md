@@ -19,3 +19,7 @@ Live [Vanilla Dev Portfolio](https://loveliiivelaugh.github.io/vanilla-portfolio
 Live [React Portfolio](https://www.michaelwoodward.dev/).
 
 ## Inspiration
+
+[html5up Strata template](https://html5up.net/strata)
+
+![Template Screenshot](/images/html5up-template-screenshot.png)
