@@ -2,6 +2,16 @@
 
 From vanilla to React and my projects on the way!
 
-This is my vanilla developer portfolio built with HTML and CSS. You can visit it live here --> https://loveliiivelaugh.github.io/vanilla-portfolio/
+## Description
 
-My full React portfolio you can visit here --> https://www.michaelwoodward.dev/
+I built a small portfolio using vanilla HTML and CSS highlighting some of my projects and my journey as a developer as I explore the wide world of programming languages and technologies.
+
+## Deployment
+
+Deployed with [GH-Pages](https://pages.github.com/).
+
+Live [Vanilla Dev Portfolio](https://loveliiivelaugh.github.io/vanilla-portfolio/).
+
+Live [React Portfolio](https://www.michaelwoodward.dev/).
+
+## Inspiration
