@@ -1,3 +1,4 @@
+/* Global Styling */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -42,7 +43,18 @@ hr {
   transition: .3s ease;
 }
 
-/* Featured Section */
+/* Navigation Section styling */
+.image-container {
+  text-align: center;
+}
+
+.my-image {
+  height: 100px;
+  border-radius: 100%;
+}
+
+
+/* Featured and Projects Sections styling */
 .grid-items-featured {
   position: relative;
   height: auto;
@@ -86,12 +98,6 @@ hr {
   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.4);
 }
 
-
-.inactive {
-  opacity: 0;
-  z-index: -2;
-}
-
 .grid-items button:hover {
   padding: 15px 30px 15px 30px;
   color: #000;
@@ -130,7 +136,6 @@ hr {
   position: absolute;
   margin: auto;
   margin-top: 20%;
-  /* margin-left: 50%; */
   height: 200px;
   width: 400px;
   top: 25%;
@@ -148,15 +153,12 @@ hr {
   opacity: 1;
 }
 
-.image-container {
-  text-align: center;
+.inactive {
+  opacity: 0;
+  z-index: -2;
 }
 
-.my-image {
-  height: 100px;
-  border-radius: 100%;
-}
-
+/* Styling media query for screen sizes greater than 768 pixels */
 @media screen and (min-width: 768px) {
   .side-nav {
     height: 100%;
@@ -166,7 +168,6 @@ hr {
     top: 0;
     left: 0;
     background-color: rgb(53, 53, 53);
-    /* background-image: url('https://images.pexels.com/photos/3646206/pexels-photo-3646206.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
     background-repeat: no-repeat;
     color: #f1f1f1;
     overflow-x: hidden;
@@ -182,24 +183,13 @@ hr {
   }
 }
 
-video {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: -10;
-  left: 0;
-  top: 0;
-  opacity: 0.4;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
 
+/* Styling media query for screen sizes smaller than 768 pixels */
 @media screen and (max-width: 768px) {
   .side-nav {
     height: auto;
     width: 100%;
     background-color: rgb(53, 53, 53);
-    /* background-image: url('https://images.pexels.com/photos/586744/pexels-photo-586744.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'); */
     color: #f1f1f1;
     padding-top: 20px;
     text-align: center;
@@ -209,49 +199,35 @@ video {
   .side-nav section {
     width: 80%;
   }
-
-  main {
-    font-size: 18px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-  }
-
-  .col-1 {
-    order: 2;
+  
+  .side-nav section {
+    padding: 20px;
   }
   
-  .col-2 {
-    order: 1;
+  .side-nav-menu li {
+    text-decoration: none;
+    list-style-type: none;
   }
-}
-
-.side-nav section {
-  padding: 20px;
-}
-
-.side-nav-menu li {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.html5up-link {
-  font-size: 12px;
-  text-decoration: underline dotted;
-  color: #818181;
-}
-
-.side-nav-menu a, .social-links a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-}
-
-
-.side-nav a:hover, .side-nav a i:hover {
-  color: #f1f1f1;
-}
-
+  
+  .html5up-link {
+    font-size: 12px;
+    text-decoration: underline dotted;
+    color: #818181;
+  }
+  
+  .side-nav-menu a, .social-links a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  
+  .side-nav a:hover, .side-nav a i:hover {
+    color: #f1f1f1;
+  }
+  
 .social-links li {
   display: inline-block;
   margin: 0 5px 0 5px;
@@ -267,15 +243,31 @@ video {
   align-items: center;
 }
 
-section {
-  padding: 25px;
-  margin: auto;
+  main {
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  section {
+    padding: 25px;
+    margin: auto;
+  }
+
+  .col-1 {
+    order: 2;
+  }
+  
+  .col-2 {
+    order: 1;
+  }
 }
 
 #feature {
   align-items: center;
 }
 
+
+/* Contact Section styling */
 .form-container {
   display: flex;
   flex-wrap: wrap;
@@ -285,12 +277,10 @@ section {
 .col-1 {
   display: flex;
   flex: 2;
-  /* order: 2; */
 }
 
 .col-2 {
   flex: 1;
-  /* order: 1; */
 }
 
 .row {
@@ -315,6 +305,7 @@ textarea {
   width: 100%;
 }
 
+/* Styling media query for screen sizes smaller than 450 pixels */
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
