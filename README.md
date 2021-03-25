@@ -1,5 +1,11 @@
 # Vanilla Portfolio
 
+![GitHub issues](https://img.shields.io/github/issues/loveliiivelaugh/vanilla-portfolio)
+![GitHub forks](https://img.shields.io/github/forks/loveliiivelaugh/vanilla-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/loveliiivelaugh/vanilla-portfolio)
+![GitHub license](https://img.shields.io/github/license/loveliiivelaugh/vanilla-portfolio)
+![Twitter](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Floveliiivelaugh%2Fvanilla-portfolio)
+
 From vanilla to React and my projects on the way!
 
 ## Description
