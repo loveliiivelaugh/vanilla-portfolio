@@ -82,7 +82,7 @@ const handleNext = () => {
 const setProjects = page => {
   projectsContainer.innerHTML = `
     <div class="glass-container">
-      <h3>Recent Work</h3>
+      <h3>Projects</h3>
       <center>
         <p>Page ${page+' / '+ Math.ceil(projects.length / 6)}</p>
         ${(page.length / 6) > 1 ? `<button>Next</button>` : ''}
