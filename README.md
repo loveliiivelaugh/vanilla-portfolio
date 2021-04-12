@@ -10,7 +10,17 @@ From vanilla to React and my projects on the way!
 
 ## Description
 
-I built a small portfolio using vanilla HTML and CSS highlighting some of my projects and my journey as a developer as I explore the wide world of programming languages and technologies.
+* I built a small portfolio using vanilla HTML and CSS highlighting some of my projects and my journey as a developer as I explore the wide world of programming languages and technologies.
+
+*UPDATES*
+
+* This jsVersion branch is an updated version of my original with new styling, added JavaScript functionality, and populated the site with a lot more projects, almost triple.
+
+#### Todo's
+
+1. Update the contact form input fields styling.
+
+2. Add last two pictures to projects section project cards.
 
 ## Finished Product
 
