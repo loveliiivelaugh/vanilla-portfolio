@@ -7,217 +7,142 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
     <nav class="side-nav">
-      <div class="image-container">
-        <img class="my-image" src="./assets/profile-pic2.png" alt="Image of me" thumbnail />
+      <div class="glass-container">
+        <div class="image-container">
+          <img class="my-image" src="./assets/profile-pic2.png" alt="Image of me" thumbnail />
+        </div>
+        <center>
+          <h4>Hi I'm <span class="name">Michael</span> <i class="fa fa-arrow-left" aria-hidden="true"></i> developer of web stuff!</h4>
+        </center>
+
+        <ul class="side-nav-menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#feature">Featured</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="https://drive.google.com/file/d/1gzv5c_AHqJq6DcJmL6cU3ibW8D4y68m0/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <ul class="social-links">
+          <li>
+            <a href="https://www.linkedin.com/in/michaelanthonywoodward/" target="blank">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/loveliiivelaugh" target="blank">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/LoveLiiiveLaugh" target="blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.michaelwoodward.dev/" target="blank">
+              <i class="fa fa-code" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+
+        <p style="text-align: center;">
+          <small>My Vanilla Portfolio | Design: <a class="html5up-link" href="#">HTML5 UP</a> inspired</small>
+        </p>
+
       </div>
-      <h3>Hi my name is Michael, I am an aspiring full stack web developer.</h3>
-
-      <ul class="side-nav-menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#feature">Featured</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="https://drive.google.com/file/d/1gzv5c_AHqJq6DcJmL6cU3ibW8D4y68m0/view?usp=sharing">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-
-      <ul class="social-links">
-        <li>
-          <a href="https://www.linkedin.com/in/michaelanthonywoodward/" target="blank">
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/loveliiivelaugh" target="blank">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://twitter.com/LoveLiiiveLaugh" target="blank">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.michaelwoodward.dev/" target="blank">
-            <i class="fa fa-code" aria-hidden="true"></i>
-          </a>
-        </li>
-      </ul>
-
-      <p>
-        <small>My Vanilla Portfolio | Design: <a class="html5up-link" href="#">HTML5 UP</a> inspired</small>
-      </p>
     </nav>
 
     <main>
       
 
       <section id="about">
-        <h3>About Me</h3>
-        <p>
-          I am a self taught programmer that is completely passionate about writing code and using creativity to push the boundaries of innovation. I have grown confident using HTML and CSS to design themes and build simple webpages for various use cases. I am also actively pursuing advancing my career and skillset capitalizing on popular languages and frameworks including JavaScript, React, and Python.
-        </p>
-        <a href="#projects"><button class="btn">Learn More</button></a>
+        <div class="glass-container">
+          <h3>About</h3>
+          <p>
+            Northwestern University Coding Bootcamp graduate as of June 2021. Before then I was self teaching for a couple years until I finally committed to a bootcamp. I am all about writing the code, passionate if you will, using problem-solving and creativity to find solutions to every day problems with the help of technology. Along my journey I have grown confident working with HTML and CSS to design themes and build websites. Also, my skillset is always expanding by learning newer and more complex technologies including JavaScript, React, Python, and cloud services, honing these skills on a daily basis.
+          </p>
+          <a href="#projects"><button class="btn">Learn More</button></a>
+        </div>
       </section>
 
       <hr />
 
       <section id="feature">
-        <h3>Featured Project</h3>
-        <p>One of my newest and more favored projects to date.</p>
-        <div class="grid-items-featured">
-          <div class="featured-image-container">
-            <img class="featured-image" src="./images/readme-generator-formatted.png" alt="Thumnail of my project" />
-            <div class="middle">
-              <a href="https://learnjs-todo.herokuapp.com/" target="blank"><button class="btn">Learn More</button></a>
+        <div class="glass-container">
+          <h3>Featured</h3>
+          <p>One of my newest and more favored projects to date.</p>
+          <div class="grid-items-featured">
+            <div class="featured-image-container">
+              <img class="featured-image" src="./images/readme-generator-formatted.png" alt="Thumnail of my project" />
+              <div class="middle">
+                <a href="https://react-readme-generator.netlify.app/" target="blank"><button class="btn">Learn More</button></a>
+              </div>
             </div>
+            <h5>README Generator</h5>
+            <p><small>Markdown generator to generate GitHub README files to streamline the documentation of new projects. Built with React.js and hooks. Deployed with Netlify.</small></p>
           </div>
-          <h5>README Generator</h5>
-          <p><small>Markdown generator to generate GitHub README files to streamline the documentation of new projects. Built with React.js and hooks. Deployed with Netlify.</small></p>
+          <a href="#projects"><button class="btn">See More</button></a>
         </div>
-        <a href="#projects"><button class="btn">See More</button></a>
       </section>
 
       <hr />
 
-      <section id="projects">
-        <h3>Recent Work</h3>
-        <div class="container">
-
-        <!-- going to set up some animation to change out two projects at a time -->
-          <div class="grid-items">
-            <div class="image-container">
-              <img class="grid-image" src="./images/coffee-shop.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="https://coffee-shop-shopify-context.netlify.app/" target="blank"><button class="btn">Learn More</button></a>
-              </div>
-            </div>
-            <h5>Shopify Coffee Shop</h5>
-            <p><small>Full stack React based Shopify integrated Coffee Shop featuring 10 plus pages, a dynamic cart accessible from multiple pages and custom design.</small></p>
-          </div>
-          <div class="grid-items">
-            <div class="image-container">
-              <img class="grid-image" src="./images/todo.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="https://learnjs-todo.herokuapp.com/" target="blank"><button class="btn">Learn More</button></a>
-              </div>
-            </div>
-            <h5>To Do App</h5>
-            <p><small>Full stack simple to do app, highlighting the use of CRUD operations, utilizing MongoDB for a database featuring simple design and deployed using Heroku.</small></p>
-          </div>
-          <!-- Want to make active and inactive two projects at a time -->
-
-          <!-- going to set up some animation to change out two projects at a time -->
-          <div class="grid-items" hidden>
-            <div class="image-container">
-              <img class="grid-image" src="./images/coffee-shop.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="https://coffee-shop-shopify-context.netlify.app/" target="blank"><button class="btn">Learn More</button></a>
-              </div>
-            </div>
-            <h5>Shopify Coffee Shop</h5>
-            <p><small>Full stack React based Shopify integrated Coffee Shop featuring 10 plus pages, a dynamic cart accessible from multiple pages and custom design.</small></p>
-          </div>
-          <div class="grid-items" hidden>
-            <div class="image-container">
-              <img class="grid-image" src="./images/todo.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="https://learnjs-todo.herokuapp.com/" target="blank"><button class="btn">Learn More</button></a>
-              </div>
-            </div>
-            <h5>To Do App</h5>
-            <p><small>Full stack simple to do app, highlighting the use of CRUD operations, utilizing MongoDB for a database featuring simple design and deployed using Heroku.</small></p>
-          </div>
-          <!-- Want to make active and inactive two projects at a time -->
-
-
-          <div class="grid-items">
-            <div class="image-container">
-              <img class="grid-image" src="./images/fictional-university.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="http://michaelw4.sgedu.site/" target="blank"><button class="btn">Learn More</button></a>
-              </div>
-            </div>
-            <h5>Fictional University</h5>
-            <p><small>A Wordpress powered Fictional University website featuring 10 plus pages and a custom hand built theme. Also features custom post types and custom ...</small></p>
-          </div>
-          <div class="grid-items">
-            <div class="image-container">
-              <img class="grid-image" src="./images/any-eats.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="https://kristin-serverless-store.netlify.app/" target="blank"><button class="btn">Learn More</button></a>
-            </div>
-              </div>
-            <h5>Any Eats</h5>
-            <p><small>Gatsby powered Stripe integrated simple single page e-commerce website.</small></p>
-          </div>
-          <div class="grid-items">
-            <div class="image-container">
-              <img class="grid-image" src="./images/meal-finder.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="https://loveliiivelaugh.github.io/mealFinderJS/" target="blank"><button class="btn">Learn More</button></a>
-              </div>
-            </div>
-            <h5>Meal Finder App</h5>
-            <p><small>Meal finder web app using a meal search API built in vanilla JavaScript.</small></p>
-          </div>
-          <div class="grid-items">
-            <div class="image-container">
-              <img class="grid-image" src="./images/lyrics-search.jpg" alt="Thumnail of my project" />
-              <div class="middle">
-                <a href="https://loveliiivelaugh.github.io/lyricsSearchJS/" target="blank"><button class="btn">Learn More</button></a>
-              </div>
-            </div>
-            <h5>Lyrics Search App</h5>
-            <p><small>Lyrics searching web app using a lyrics search API built in vanilla JavaScript.</small></p>
-          </div>
-        </div>
-        <a href="https://www.michaelwoodward.dev/" target="blank"><button class="btn">Full Portfolio</button></a>
-      </section>
+      <section id="projects"></section>
 
       <hr />
 
       <section id="contact">
-        <h3>Get in Touch</h3>
-        <p>
-          Here's my contact info. Reach out and let's get to work!
-        </p>
-        <div class="form-container">
-          <div class="col-1">
-            <form method="POST" action="https://formspree.io/f/xyybwvnz">
-              <div class="row">
-                <input class="form-name" name="name" type="text" placeholder="Name" />
-                <input class="form-email" name="email" type="email" placeholder="Email" />
-              </div>
-              <div class="row">
-                <textarea class="form-message" name="message" type="text" placeholder="Message" rows="4"></textarea>
-              </div>
-              <input class="btn" type="submit" value="Send Message" />
-            </form>
-          </div>
-          <div class="col-2">
-            <div class="row">
-              <p>
-              <i class="fa fa-home" aria-hidden="true"></i><br />
-                Chicago Area Based<br />
-                Chicago, IL.<br />
-                United States<br />
-              </p>
+        <div class="glass-container">
+          <h3>Contact</h3>
+          <br>
+            Fill out and submit this form or you can reach me by email.<br />
+            You can also check me out at any of my social links.<br />
+            I'm always up for a chat!<br />
+          </p>
+          <div class="form-container">
+            <div class="col-1">
+              <form method="POST" action="https://formspree.io/f/xyybwvnz">
+                <div class="row">
+                  <input class="form-name" name="name" type="text" placeholder="Name" />
+                  <input class="form-email" name="email" type="email" placeholder="Email" />
+                </div>
+                <div class="row">
+                  <textarea class="form-message" name="message" type="text" placeholder="Message" rows="4"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Send Message" />
+              </form>
             </div>
-            <div class="row">
-              <p>
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                <u>woodward.michael.a@gmail.com</u>
-              </p>
+            <div class="col-2">
+              <div class="row">
+                <p>
+                <i class="fa fa-home" aria-hidden="true"></i><br />
+                  Chicago Area Based<br />
+                  Chicago, IL.<br />
+                  United States<br />
+                </p>
+              </div>
+              <div class="row">
+                <p>
+                  <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                  <u>woodward.michael.a@gmail.com</u>
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
