@@ -5,14 +5,21 @@ const projects = [
     image: './images/coffee-shop.jpg',
     link: 'https://coffee-shop-shopify-context.netlify.app/',
     github: '',
-    name: 'Shopify Coffee Shop',
+    name: 'Coffee Stop',
     description: 'Full stack React based Shopify integrated Coffee Shop featuring 10 plus pages, a dynamic cart accessible from multiple pages and custom design.'
+  },
+  {
+    image: './images/code-quiz.png',
+    link: 'https://loveliiivelaugh.github.io/nu-hw4-coding-quiz/',
+    github: 'https://github.com/loveliiivelaugh/nu-hw4-coding-quiz',
+    name: 'Code Quiz',
+    description: ' A small quiz application to repeatedly ask the user coding practice questions until either the time runs out or the questions run out and keeps track of the score and the time along the way.'
   },
   {
     image: './images/todo.jpg',
     link: 'https://learnjs-todo.herokuapp.com/',
     github: '',
-    name: 'To Do App',
+    name: 'To Do List',
     description: 'Full stack simple to do app, highlighting the use of CRUD operations, utilizing MongoDB for a database featuring simple design and deployed using Heroku.'
   },
   {
