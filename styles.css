@@ -56,8 +56,8 @@ hr {
 }
 
 main {
-  /* background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.3)), url('/images/icon_wallpaper.jpg'); */
-  background-image:url('/images/icon_wallpaper.jpg');
+  background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.3)), url('/images/icon_wallpaper.jpg');
+  /* background-image:url('/images/icon_wallpaper.jpg'); */
 }
 
 .glass-container {
@@ -84,8 +84,8 @@ main {
 
 .side-nav {
   padding: 1%;
-  /* background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.3)), url('/images/icon_wallpaper.jpg'); */
-  background-image:url('/images/icon_wallpaper.jpg');
+  background: linear-gradient(rgba(255,255,255, 0.3), rgba(255,255,255, 0.3)), url('/images/icon_wallpaper.jpg');
+  /* background-image:url('/images/icon_wallpaper.jpg'); */
   background-size: cover;
 }
 
