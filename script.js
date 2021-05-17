@@ -30,17 +30,17 @@ const projects = [
     description: "A sample build out of an ecommerce backend. Built using JavaScript, ExpressJS, MySQL, and Sequelize."
   },
   {
-    image: '',
+    image: './images/tastyGen_screenshot.png',
+    link: '#',
+    github: 'https://loveliiivelaugh.github.io/nu-group-project-1/',
+    name: 'TastyGen',
+    description: "TastyGen is an application created for a user that is interested in finding new and unique recipes."
+  },
+  {
+    image: './images/tech-blog.png',
     link: 'https://sqlbars-tech-blog.herokuapp.com/',
     github: 'https://github.com/loveliiivelaugh/sqlbars-tech-blog',
     name: 'SQL Bars Tech Blog',
-    description: ""
-  },
-  {
-    image: '',
-    link: 'https://spotify-community.herokuapp.com/',
-    github: 'https://github.com/loveliiivelaugh/spotify-community',
-    name: 'Spotify Community',
     description: ""
   },
   {
