@@ -183,12 +183,14 @@ const setProjects = page => {
             <div class="image-container">
             <img class="grid-image" src="${project.image}" alt="Thumnail of my project" />
               <div class="middle">
-                <a href=${project.link}" target="blank"><button class="btn">Learn More</button></a>
+                <a href=${project.link ? project.link : "#"}" target="blank"><button class="btn">Learn More</button></a>
               </div>
             </div>
-            <a id="repo-link" href=${project.github} target="blank">
-              <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
+            ${project.github &&
+              `<a id="repo-link" href=${project.github} target="blank">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
+            `}
             <div style="display: inline;">
               <h5>${project.name}</h5>
             </div>
