@@ -16,6 +16,34 @@ const projects = [
     description: "A vanilla JavaScript Rock Paper Scissor's game."
   },
   {
+    image: './images/cli-employee-management.png',
+    link: '',
+    github: 'https://github.com/loveliiivelaugh/cli-employee-management-system',
+    name: 'CLI Employee Management',
+    description: "A command line application to manage employees in a MySQL database. Built with NodeJs. It uses the Inquirer package as well as MySQL to enable interacting with the command line as well as storing and retrieving information from the database. Utilizes OOP design."
+  },
+  {
+    image: './images/ecommerce-backend.png',
+    link: '',
+    github: 'https://github.com/loveliiivelaugh/e-commerce-backend',
+    name: 'E-Commerce Backend',
+    description: "A sample build out of an ecommerce backend. Built using JavaScript, ExpressJS, MySQL, and Sequelize."
+  },
+  {
+    image: '',
+    link: 'https://sqlbars-tech-blog.herokuapp.com/',
+    github: 'https://github.com/loveliiivelaugh/sqlbars-tech-blog',
+    name: 'SQL Bars Tech Blog',
+    description: ""
+  },
+  {
+    image: '',
+    link: 'https://spotify-community.herokuapp.com/',
+    github: 'https://github.com/loveliiivelaugh/spotify-community',
+    name: 'Spotify Community',
+    description: ""
+  },
+  {
     image: './images/workday-scheduler.png',
     link: 'https://loveliiivelaugh.github.io/nu-hw5-daily-scheduler/',
     github: 'https://github.com/loveliiivelaugh/nu-hw5-daily-scheduler',
