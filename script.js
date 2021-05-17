@@ -9,55 +9,6 @@ const projects = [
     description: 'Full stack React based Shopify integrated Coffee Shop featuring 10 plus pages, a dynamic cart accessible from multiple pages and custom design.'
   },
   {
-    image: './images/code-quiz.png',
-    link: 'https://loveliiivelaugh.github.io/nu-hw4-coding-quiz/',
-    github: 'https://github.com/loveliiivelaugh/nu-hw4-coding-quiz',
-    name: 'Code Quiz',
-    description: ' A small quiz application to repeatedly ask the user coding practice questions until either the time runs out or the questions run out and keeps track of the score and the time along the way.'
-  },
-  {
-    image: './images/todo.jpg',
-    link: 'https://learnjs-todo.herokuapp.com/',
-    github: '',
-    name: 'To Do List',
-    description: 'Full stack simple to do app, highlighting the use of CRUD operations, utilizing MongoDB for a database featuring simple design and deployed using Heroku.'
-  },
-  {
-    image: './images/fictional-university.jpg',
-    link: 'http://michaelw4.sgedu.site/',
-    github: '',
-    name: 'Fictional University',
-    description: 'A Wordpress powered Fictional University website featuring 10 plus pages and a custom hand built theme. Also features custom post types and custom ...'
-  },
-  {
-    image: './images/any-eats.jpg',
-    link: 'https://kristin-serverless-store.netlify.app/',
-    github: '',
-    name: 'Any Eats',
-    description: 'Gatsby powered Stripe integrated simple single page e-commerce website.'
-  },
-  {
-    image: './images/meal-finder.jpg',
-    link: 'https://loveliiivelaugh.github.io/mealFinderJS/',
-    github: '',
-    name: 'Meal Finder App',
-    description: 'Meal finder web app using a meal search API built in vanilla JavaScript.'
-  },
-  {
-    image: './images/lyrics-search.jpg',
-    link: 'https://loveliiivelaugh.github.io/lyricsSearchJS/',
-    github: '',
-    name: 'Lyrics Search App',
-    description: 'Lyrics searching web app using a lyrics search API built in vanilla JavaScript.'
-  },
-  {
-    image: './images/employee-management-system-screenshot.png',
-    link: 'https://fire-react-employee-management.netlify.app/',
-    github: '',
-    name: 'Employee Management System',
-    description: 'Employee management system built with React, MaterialUI, Firebase for auth and for the noSql Firestore database. This is an attempt to build this project ahead of having to build it as part of a coding bootcamp curriculum I am about to begin.'
-  },
-  {
     image: './images/rps.png',
     link: 'https://loveliiivelaugh.github.io/nu-javascript03-mini-project/',
     github: '',
@@ -72,18 +23,46 @@ const projects = [
     description: 'A small daily scheduler app built with vanilla HTML, CSS, and JavaScript. Seperates the day into hourly time blocks that the user can store notes and appointments in. Data is persisted using local storage.'
   },
   {
-    image: './images/2020-election-api.png',
-    link: 'https://6fmcve298d.execute-api.us-east-1.amazonaws.com/api/',
-    github: '#',
-    name: '2020 Presidential Election Results by county API',
-    description: 'An API to find out the results of the 2020 presidential election by county. Built to be used in data science to study what the voter turn out outcome was in each county to measure or analyze correlations between votes, demographics, and geographical influence.'
-  },
-  {
     image: './images/exercise-tracker.png',
     link: 'https://fire-react-exercise-tracker.netlify.app/',
     github: 'https://github.com/loveliiivelaugh/exercise-tracker',
     name: 'React Material Exercise Tracker',
     description: 'A small React app to track exercise activity. Features user authentication and real time database storage to store daily activity data. Includes a chart to be used for data visualization.'
+  },
+  {
+    image: './images/code-quiz.png',
+    link: 'https://loveliiivelaugh.github.io/nu-hw4-coding-quiz/',
+    github: 'https://github.com/loveliiivelaugh/nu-hw4-coding-quiz',
+    name: 'Code Quiz',
+    description: ' A small quiz application to repeatedly ask the user coding practice questions until either the time runs out or the questions run out and keeps track of the score and the time along the way.'
+  },
+  {
+    image: './images/todo.jpg',
+    link: 'https://learnjs-todo.herokuapp.com/',
+    github: '',
+    name: 'To Do List',
+    description: 'Full stack simple to do app, highlighting the use of CRUD operations, utilizing MongoDB for a database featuring simple design and deployed using Heroku.'
+  },
+  {
+    image: './images/bootstrap-weather-dashboard.png',
+    link: 'loveliiivelaugh.github.io/nu-hw6-weather-dashboard/',
+    github: 'https://github.com/loveliiivelaugh/nu-hw6-weather-dashboard',
+    name: 'Weather Dashboard',
+    description: 'A small weather application featuring the ability to find weather and 5-day forecasts for multiple cities of choosing. This application makes use of the OpenWeatherAPI for live weather data.'
+  },
+  {
+    image: './images/employee-management-system-screenshot.png',
+    link: 'https://fire-react-employee-management.netlify.app/',
+    github: '',
+    name: 'Employee Management System',
+    description: 'Employee management system built with React, MaterialUI, Firebase for auth and for the noSql Firestore database. This is an attempt to build this project ahead of having to build it as part of a coding bootcamp curriculum I am about to begin.'
+  },
+  {
+    image: './images/fictional-university.jpg',
+    link: 'http://michaelw4.sgedu.site/',
+    github: '',
+    name: 'Fictional University',
+    description: 'A Wordpress powered Fictional University website featuring 10 plus pages and a custom hand built theme. Also features custom post types and custom ...'
   },
   {
     image: './images/react-weather.png',
@@ -93,11 +72,32 @@ const projects = [
     description: 'A small weather app built with React and OpenWeather API.'
   },
   {
-    image: './images/bootstrap-weather-dashboard.png',
-    link: 'loveliiivelaugh.github.io/nu-hw6-weather-dashboard/',
-    github: 'https://github.com/loveliiivelaugh/nu-hw6-weather-dashboard',
-    name: 'Weather Dashboard',
-    description: 'A small weather application featuring the ability to find weather and 5-day forecasts for multiple cities of choosing. This application makes use of the OpenWeatherAPI for live weather data.'
+    image: './images/any-eats.jpg',
+    link: 'https://kristin-serverless-store.netlify.app/',
+    github: '',
+    name: 'Any Eats',
+    description: 'Gatsby powered Stripe integrated simple single page e-commerce website.'
+  },
+  {
+    image: './images/2020-election-api.png',
+    link: 'https://6fmcve298d.execute-api.us-east-1.amazonaws.com/api/',
+    github: '#',
+    name: '2020 Presidential Election Results by county API',
+    description: 'An API to find out the results of the 2020 presidential election by county. Built to be used in data science to study what the voter turn out outcome was in each county to measure or analyze correlations between votes, demographics, and geographical influence.'
+  },
+  {
+    image: './images/meal-finder.jpg',
+    link: 'https://loveliiivelaugh.github.io/mealFinderJS/',
+    github: '',
+    name: 'Meal Finder App',
+    description: 'Meal finder web app using a meal search API built in vanilla JavaScript.'
+  },
+  {
+    image: './images/lyrics-search.jpg',
+    link: 'https://loveliiivelaugh.github.io/lyricsSearchJS/',
+    github: '',
+    name: 'Lyrics Search App',
+    description: 'Lyrics searching web app using a lyrics search API built in vanilla JavaScript.'
   },
   {
     image: '',

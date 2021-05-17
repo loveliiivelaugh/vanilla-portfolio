@@ -56,8 +56,8 @@ hr {
 }
 
 main {
-  background: url('/images/icon_wallpaper.jpg');
-  /* background-image:url('/images/icon_wallpaper.jpg'); */
+  background: url('https://loveliiivelaugh.github.io/images/icon_wallpaper.jpg');
+  background: url('images/icon_wallpaper.jpg');
 }
 
 .glass-container {
